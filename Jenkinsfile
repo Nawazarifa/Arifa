@@ -2,7 +2,7 @@ node {
 
     stage('Gitclone') {
 	
-	    git branch: 'main', credentialsId: 'ff544294-e567-4214-b8f4-93372c475862', url: 'https://github.com/Nawazarifa/Arifa.git'
+	  git branch: 'main', credentialsId: '6c0499f4-7c6b-4de2-b068-68dd6cf1c3f6', url: 'https://github.com/Nawazarifa/Arifa.git'
     }
 	stage('java version') {
 	
